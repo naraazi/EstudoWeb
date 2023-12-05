@@ -1,0 +1,30 @@
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+th {
+    background-color: #9DC0E3;
+    color: black;
+}
+
+td {
+    background-color: #FFF3CF;
+    text-align: center;
+}
+
+.amarelao{
+    background-color: #FED96D;
+    text-align: center;
+}
+
+table {
+    margin: 60px auto;
+    width: 70%;
+}

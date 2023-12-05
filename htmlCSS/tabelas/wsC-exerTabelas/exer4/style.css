@@ -1,0 +1,23 @@
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+
+th {
+    background-color: #9DC0E3;
+}
+
+td {
+    background-color: #FFF3CF;
+}
+
+table {
+    margin: 60px auto;
+    width: 80%;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.layout {
+    margin: 50px;
+    text-align: center;
+    background-color: darkgray;
+    padding: 50px;
+}
+
+.link {
+    color: lightblue;
+    text-decoration: none; /*tira a linha abaixo do link*/
+    font-size: 2em;
+}
+
+.link:hover { /*quando o mouse ta em cima do link*/
+    color: yellow;
+}
+
+.link:active { /*quando aperta no link*/
+    color: blue;
+}
+
+.link:visited { /*quando o link já foi apertado*/
+    color: red;
+}
